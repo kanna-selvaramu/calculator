@@ -1,0 +1,54 @@
+html {
+  background: #100a1c;
+  background-image: radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+  background-attachment: fixed;
+  color: #6cacc5;
+}
+body {
+  color: #6cacc5;
+  font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+.cls_skCalculatorWrappper {
+  width: 12em;
+  font-size: 28px;
+  margin: 0 auto;
+}
+.cls_skNumKey, .cls_skOpKey,.cls_skOpClearKey,.cls_skOpEqKey {
+  border: 0;
+  background: rgba(42, 50, 113, 0.28);
+  color: #6cacc5;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  transition: all 0.5s;
+  margin: 12px;
+}
+.cls_skCalcHeadWrapper {
+  height: 3em;
+  color: #c97874;
+  border: solid 1px #c97874;
+  margin-bottom: 5px;
+}
+.cls_skDisplayWrap {
+  width: 100%;
+  height: inherit;
+}
+.cls_skDisplayScreen {
+  height: inherit;
+  padding: 22px 15px;
+  text-align: right;
+  box-sizing: border-box;
+  line-height: normal;
+}
+.cls_skCalcBodyWrapper {
+  border: solid 1px #c97874;
+}
+.cls_skKeyVal {
+  display: block;
+}
